@@ -58,12 +58,12 @@ export default function JiraTodos() {
 
   return (
     <div className={styles.mainWrap}>
-      <h2> Jira Tickets App </h2>
+      <h2> Add Tickets To Your List </h2>
 
       <div className={styles.mainInputWrap}>
         <input
           type="text"
-          placeholder="Jira task"
+          placeholder="Create Task"
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
           validation="true"

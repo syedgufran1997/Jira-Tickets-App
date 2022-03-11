@@ -4,6 +4,10 @@
   margin: 2em auto;
 }
 .mainInputWrap {
+  background-color: #d4d4d4;
+  margin-top: 1em;
+  padding: 2em 0;
+  border-bottom: 1px solid grey;
 }
 
 .mainInputWrap input,
@@ -19,9 +23,13 @@
   border-top-left-radius: 10px;
 }
 .mainInputWrap button {
+  cursor: pointer;
   border-bottom-right-radius: 10px;
 }
-
+.mainInputWrap button:hover {
+  background-color: tomato;
+  color: white;
+}
 .taskMainWrap {
   margin: 1.5em 0.5em;
   display: flex;
@@ -38,10 +46,16 @@
 }
 
 .taskWrap button {
-  border: 1px solid lightgrey;
+  cursor: pointer;
+  border: none;
   padding: 0.1em 0.5em;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 5px;
+}
+.taskWrap button:hover {
+  border: none;
+  background-color: tomato;
+  color: white;
 }
 .taskColumnWrapper {
   margin: 0 auto;
