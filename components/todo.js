@@ -90,7 +90,7 @@ export default function JiraTodos() {
                     handleTodoPending(item.todo);
                   }}
                 >
-                  pending
+                  Started
                 </button>
               </div>
             ))}
